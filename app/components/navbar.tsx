@@ -46,7 +46,7 @@ const Navbar: FC<NavbarProps> = (): JSX.Element => {
         </div>
       </div>
       <div className="bg-theme-orange py- flex items-center">
-        <div className="w-[750px] flex justify-between mx-auto px-4 md:px-0 py-2">
+        <div className="w-[750px] flex gap-6 mx-auto px-4 md:px-0 py-2">
           <Link href="/">
             <p
               onClick={() => setSelected('home')}
