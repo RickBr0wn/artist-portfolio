@@ -67,7 +67,7 @@ const Navbar: FC<NavbarProps> = (): JSX.Element => {
               }`}
             >{`Bio`}</p>
           </Link>
-          {/* <Link href="/work">
+          <Link href="/work">
             <p
               onClick={() => setSelected('work')}
               className={`uppercase  ${
@@ -76,7 +76,7 @@ const Navbar: FC<NavbarProps> = (): JSX.Element => {
                   : 'text-gray-500'
               }`}
             >{`Work`}</p>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </>

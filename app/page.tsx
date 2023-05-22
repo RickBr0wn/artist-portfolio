@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { IMAGES } from './fonts/imageURLs'
+import { IMAGES } from './imageURLs'
 // import hero from 'public/images/hero_img.png'
 
 export default function Home() {
