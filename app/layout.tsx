@@ -1,6 +1,6 @@
 import Footer from './components/footer'
 import Navbar from './components/navbar'
-import ScreenSizeIndicator from './components/screen-size-indicator'
+// import ScreenSizeIndicator from './components/screen-size-indicator'
 import './globals.css'
 import localFont from 'next/font/local'
 
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${spaceFont.variable} ${bodyFont.variable}`}>
       <body className="h-screen">
-        <ScreenSizeIndicator />
+        {/* <ScreenSizeIndicator /> */}
         <Navbar />
         <div className="max-w-[750px] mx-auto py-12">{children}</div>
         <Footer />
